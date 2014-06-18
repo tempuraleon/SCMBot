@@ -459,7 +459,7 @@ namespace SCMBot
                     request.Proxy = null;
                     request.Timeout = 30000;
                     //KeepAlive is True by default
-                    //request.KeepAlive = true;
+                    //request.KeepAlive = false;
 
                     //LOL, really?
                     request.UserAgent = steamUA;
